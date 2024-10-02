@@ -1,45 +1,35 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
     <div id="calculator">
-        <input id="inputArea" type="text" placeholder="0">
-        <div>
-            <button class="operator" id="colorr">AC</button>
-            <button class="operator" id="colorr">Del</button>
-            <button class="operator" id="colorr">%</button>
-            <button class="operator" id="colorr">/</button>
-        </div>
-        <div>
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="operator" id="colorr">*</button>
-        </div>
-        <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="operator" id="colorr">-</button>
-        </div>
-        <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="operator" id="colorr">+</button>
-        </div>
-        <div>
-            <button>00</button>
-            <button>0</button>
-            <button class="operator" id="colorr">.</button>
-            <button class="equalButton" id="colorr">=</button>
-        </div>
-        
+      <input id="display" readonly />
+      <div id="keys">
+        <button value="7">7</button> 
+        <button value="8">8</button> 
+        <button value="9">9</button> 
+        <button value="/">/</button> 
+
+        <button value="4">4</button> 
+        <button value="5">5</button>  
+        <button value="6">6</button>  
+        <button value="*">*</button>  
+
+        <button value="1">1</button>  
+        <button value="2">2</button>  
+        <button value="3">3</button> 
+        <button value="-">-</button> 
+
+        <button value="0">0</button>  
+        <button value="C">AC</button>
+        <button value="D">Del</button>
+        <button value="=">=</button>
+        <button value="+">+</button> 
+      </div>
     </div>
-</body>
-<script src="./app.js"></script>
+  </body>
+  <script src="./app.js"></script>
 </html>
